@@ -278,16 +278,25 @@ a {
   justify-content: center;
 }
 
+.torryn-pic,
+.lyus-pic,
+.em-pic,
+.ellie-pic,
 .terri-pic{
   object-fit: cover;
   width: 250px;
   height: 250px;
   border-radius: 50%;
   position: relative;
+}
+
+.terri{
+  margin-bottom: -180px;
+}
+
+.terri-pic{
   top: 40px;
   left: 63%;
-  /* margin-left: 50%; */
-  /* margin-top: 20px; */
 }
 
 .terri-title{
@@ -301,4 +310,16 @@ a {
   position: relative;
   left: 60px;
   top: -200px;
+}
+
+.torryn-title{
+  position: relative;
+  left: 800px;
+  top: -200px;
+}
+
+.torryn-bio{
+  position: relative;
+  width: 400px;
+  left: 200px;
 }
