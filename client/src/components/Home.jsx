@@ -1,6 +1,9 @@
+import NavBar from "./NavBar"
+
 function Home() {
     return (
         <div>
+            <NavBar />
             <div className="logo-container" >
                 <input id="toggle1" type="checkbox" />
                 <label class="hamburger1" for="toggle1">
