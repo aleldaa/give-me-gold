@@ -1,8 +1,12 @@
 function Home() {
     return (
         <div>
-            <div className="logo-container">
-                <img className="logo" src="/src/images/givemegold-logo.png" />
+            <div className="logo-container" >
+                <input id="toggle1" type="checkbox" />
+                <label class="hamburger1" for="toggle1">
+                    <img className="logo" src="/src/images/givemegold-logo.png" />
+                </label>
+
             </div>
             <div className="home-imgs">
                 <div className="img-containers">

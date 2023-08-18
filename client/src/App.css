@@ -78,19 +78,22 @@ a {
 
 /* Hamburger */
 .hamburger1 {
-  height: 45px;
-  margin: 10px;
-  display: -ms-grid;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  justify-items: center;
-  z-index: 120;
+  max-height: 400px;
+  margin-left: -75px;
+  padding-right: 4.4px;
+  position: absolute;
+  left: 55.5%;
+  transition: transform .2s;
+  border-radius: 50%;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgb(34, 34, 36);
+  background-color: rgb(34, 34, 36);
 }
 
 .hamburger1 div {
   background-color: rgb(61, 61, 61);
-  position: relative;
-  width: 40px;
+  width: 35px;
   height: 5px;
   margin-top: 7px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -119,7 +122,7 @@ a {
 }
 
 #toggle1:checked~.menu1 {
-  height: 340px;
+  height: 200px;
 }
 
 
@@ -131,7 +134,7 @@ a {
   display: -ms-grid;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
-  grid-row-gap: 25px;
+  /* grid-row-gap: 25px; */
   padding: 0;
   list-style: none;
   clear: both;
@@ -147,7 +150,7 @@ a {
 }
 
 .menu1 a:first-child {
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 .menu1 a:last-child {
@@ -162,7 +165,7 @@ a {
 }
 
 .link1:hover {
-  background-color: #fff;
+  background-color: #aaaaaa;
   color: rgb(61, 61, 61);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;

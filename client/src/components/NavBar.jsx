@@ -5,11 +5,11 @@ function NavBar() {
         <div className="p-menu">
             <nav className="navbar">
                 <input id="toggle1" type="checkbox" />
-                <label class="hamburger1" for="toggle1">
+                {/* <label class="hamburger1" for="toggle1">
                     <div class="top"></div>
                     <div class="meat"></div>
                     <div class="bottom"></div>
-                </label>
+                </label> */}
 
                 <nav className="menu1">
                     <a className="link1" href="">About</a>
