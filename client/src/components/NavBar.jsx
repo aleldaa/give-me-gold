@@ -11,8 +11,8 @@ function NavBar() {
                     <NavLink to="/about" className="link1">About</NavLink>
                     <NavLink to="/book-us" className="link1">Book Us</NavLink>
                     <NavLink to="/donate" className="link1">Donate</NavLink>
-                    <a className="link1" href="https://www.instagram.com/givemegoldband/">
-                        <img className="insta-link" src="/src/images/insta-logo.png"/>
+                    <a className="link1" href="https://linktr.ee/givemegoldband">
+                        <img className="insta-link" src="/src/images/linktree2.png"/>
                     </a>
                 </nav>
             </nav>

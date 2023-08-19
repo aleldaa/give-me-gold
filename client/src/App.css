@@ -45,7 +45,7 @@ body {
 .home-img-3,
 .home-img-4 {
   width: 433.38461538461536px;
-  height: 293px;
+  height: 294px;
   object-fit: cover;
   margin-left: 5px;
 }
@@ -60,7 +60,6 @@ body {
 .img-containers {
   display: flex;
 }
-
 
 a {
   color: #fff;
@@ -162,7 +161,7 @@ a {
 }
 
 .insta-link{
-  max-width: 25px;
+  max-width: 100px;
   margin-top: 3px;
 }
 
@@ -215,7 +214,7 @@ a {
 /* Menu */
 .menu2 {
   width: 100%;
-  background-color: rgb(61, 61, 61);
+  background-color: #292b2d;
   margin: 0;
   display: -ms-grid;
   display: grid;
@@ -265,7 +264,7 @@ a {
 .banner-container{
   display: flex;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 40px;
 }
 
 .about-container{
@@ -278,11 +277,20 @@ a {
   justify-content: center;
 }
 
+.band-bio{
+  width: 89%;
+  position: relative;
+  left: 40px;
+  top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
 .torryn-pic,
 .lyus-pic,
 .em-pic,
 .ellie-pic,
-.terri-pic{
+.terrie-pic{
   object-fit: cover;
   width: 250px;
   height: 250px;
@@ -290,36 +298,100 @@ a {
   position: relative;
 }
 
-.terri{
+.terrie,
+.torryn,
+.lyus,
+.em,
+.ellie{
   margin-bottom: -180px;
 }
 
-.terri-pic{
+.terrie-pic{
   top: 40px;
   left: 63%;
 }
 
-.terri-title{
+.terrie-title{
   position: relative;
   top: -200px;
   left: 60px;
 }
 
-.terri-bio{
+.terrie-bio{
   width: 400px;
   position: relative;
   left: 60px;
   top: -200px;
 }
 
+.torryn-pic{
+  left: 60px;
+}
+
 .torryn-title{
   position: relative;
-  left: 800px;
-  top: -200px;
+  left: 750px;
+  top: -240px;
+  width: 40px;
 }
 
 .torryn-bio{
   position: relative;
   width: 400px;
-  left: 200px;
+  left: 410px;
+  top: -240px;
+  text-align: right;
+}
+
+.lyus-pic{
+  left: 63%;
+}
+
+.lyus-title{
+  position: relative;
+  left: 60px;
+  top: -240px;
+}
+
+.lyus-bio{
+  width: 400px;
+  position: relative;
+  left: 60px;
+  top: -240px;
+}
+
+.em-pic{
+  left: 60px;
+}
+
+.em-title{
+  position: relative;
+  left: 777px;
+  top: -240px;
+  width: 40px;
+}
+
+.em-bio{
+  position: relative;
+  width: 400px;
+  left: 405px;
+  top: -240px;
+  text-align: right;
+}
+
+.ellie-pic{
+  left: 63%;
+}
+
+.ellie-title{
+  position: relative;
+  left: 60px;
+  top: -240px;
+}
+
+.ellie-bio{
+  width: 400px;
+  position: relative;
+  left: 60px;
+  top: -240px;
 }
