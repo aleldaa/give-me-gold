@@ -160,7 +160,7 @@ a {
   transition: all 0.3s ease;
 }
 
-.insta-link{
+.insta-link {
   max-width: 100px;
   margin-top: 3px;
 }
@@ -189,24 +189,24 @@ a {
   display: none;
 }
 
-#toggle2:checked + .hamburger2 .top {
+#toggle2:checked+.hamburger2 .top {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-top: 22.5px;
 }
 
-#toggle2:checked + .hamburger2 .meat {
+#toggle2:checked+.hamburger2 .meat {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-top: -5px;
 }
 
-#toggle2:checked + .hamburger2 .bottom {
+#toggle2:checked+.hamburger2 .bottom {
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 
-#toggle2:checked ~ .menu2 {
+#toggle2:checked~.menu2 {
   height: 340px;
 }
 
@@ -255,29 +255,31 @@ a {
   transition: all 0.3s ease;
 }
 
-.banner{
+.banner {
   object-fit: cover;
   width: 800px;
   height: 250px;
 }
 
-.banner-container{
+.banner-container {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.about-container{
+.about-container {
   background-color: #1b1c1d;
   width: 70%;
 }
 
-.about-container1{
+.about-container1 {
   display: flex;
   justify-content: center;
 }
 
-.band-bio{
+.band-bio {
   width: 89%;
   position: relative;
   left: 40px;
@@ -290,7 +292,7 @@ a {
 .lyus-pic,
 .em-pic,
 .ellie-pic,
-.terrie-pic{
+.terrie-pic {
   object-fit: cover;
   width: 250px;
   height: 250px;
@@ -302,40 +304,40 @@ a {
 .torryn,
 .lyus,
 .em,
-.ellie{
+.ellie {
   margin-bottom: -180px;
 }
 
-.terrie-pic{
+.terrie-pic {
   top: 40px;
   left: 63%;
 }
 
-.terrie-title{
+.terrie-title {
   position: relative;
   top: -200px;
   left: 60px;
 }
 
-.terrie-bio{
+.terrie-bio {
   width: 400px;
   position: relative;
   left: 60px;
   top: -200px;
 }
 
-.torryn-pic{
+.torryn-pic {
   left: 60px;
 }
 
-.torryn-title{
+.torryn-title {
   position: relative;
   left: 750px;
   top: -240px;
   width: 40px;
 }
 
-.torryn-bio{
+.torryn-bio {
   position: relative;
   width: 400px;
   left: 410px;
@@ -343,35 +345,35 @@ a {
   text-align: right;
 }
 
-.lyus-pic{
+.lyus-pic {
   left: 63%;
 }
 
-.lyus-title{
+.lyus-title {
   position: relative;
   left: 60px;
   top: -240px;
 }
 
-.lyus-bio{
+.lyus-bio {
   width: 400px;
   position: relative;
   left: 60px;
   top: -240px;
 }
 
-.em-pic{
+.em-pic {
   left: 60px;
 }
 
-.em-title{
+.em-title {
   position: relative;
   left: 777px;
   top: -240px;
   width: 40px;
 }
 
-.em-bio{
+.em-bio {
   position: relative;
   width: 400px;
   left: 405px;
@@ -379,19 +381,85 @@ a {
   text-align: right;
 }
 
-.ellie-pic{
+.ellie-pic {
   left: 63%;
 }
 
-.ellie-title{
+.ellie-title {
   position: relative;
   left: 60px;
   top: -240px;
 }
 
-.ellie-bio{
+.ellie-bio {
   width: 400px;
   position: relative;
   left: 60px;
   top: -240px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+  .about-container {
+    background-color: #1b1c1d;
+    width: 90%;
+  }
+
+  .banner {
+    height: 175px;
+  }
+
+  .band-bio {
+    left: 19px;
+  }
+
+  .terrie,
+  .torryn,
+  .lyus,
+  .em,
+  .ellie {
+    margin-bottom: -180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    background-color: #1b1c1d;
+    width: 95%;
+  }
+
+  .banner {
+    height: 100px;
+  }
+
+  .band-bio {
+    left: 4px;
+    margin: 10px;
+  }
+
+  .terrie,
+  .torryn,
+  .lyus,
+  .em,
+  .ellie {
+    margin-bottom: 0px;
+  }
+
+  .terrie-pic {
+    top: 40px;
+    left: 14%;
+  }
+
+  .terrie-title {
+    position: relative;
+    top: 0px;
+    left: 50px;
+  }
+
+  .terrie-bio {
+    width: 250px;
+    position: relative;
+    left:50px;
+    top: 0px;
+
+  }
 }
