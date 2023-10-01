@@ -3,7 +3,7 @@ import About from "./About"
 
 function NavBar() {
     return (
-        <div className="p-menu">
+        <div className="p-menu ">
             <nav className="navbar">
                 <input id="toggle1" type="checkbox" />
                 <nav className="menu1">
